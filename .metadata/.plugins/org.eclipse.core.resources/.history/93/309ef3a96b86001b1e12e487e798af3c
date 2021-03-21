@@ -1,0 +1,7 @@
+	<div class="form-group  text-center col-md-offset-1">
+				<div class="center">	
+				<label class="control-label" style="margin-left: -49%; max-width: 100%;">Course Name :</label>
+				<%=HTMLUtility.getList("courseId", String.valueOf(dto.getCourseId()), courseList)%>
+				</div>
+				</div>&emsp;
+				
